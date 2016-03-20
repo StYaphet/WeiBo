@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0484F71C888CE200DDDF54 /* HYPNavigitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0484F61C888CE200DDDF54 /* HYPNavigitionViewController.m */; };
+		6E0FEDCA1C9A8F9E009FFDD5 /* HYPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FEDC91C9A8F9E009FFDD5 /* HYPTextView.m */; };
+		6E1C19F01C81EE9A00B41224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C19EF1C81EE9A00B41224 /* main.m */; };
+		6E1C19F31C81EE9A00B41224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C19F21C81EE9A00B41224 /* AppDelegate.m */; };
+		6E1C19F91C81EE9A00B41224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C19F71C81EE9A00B41224 /* Main.storyboard */; };
+		6E1C19FB1C81EE9A00B41224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C19FA1C81EE9A00B41224 /* Assets.xcassets */; };
+		6E1C19FE1C81EE9A00B41224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C19FC1C81EE9A00B41224 /* LaunchScreen.storyboard */; };
+		6E1C1A091C81EE9B00B41224 /* HYPWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C1A081C81EE9B00B41224 /* HYPWeiBoTests.m */; };
+		6E1C1A141C81EE9B00B41224 /* HYPWeiBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C1A131C81EE9B00B41224 /* HYPWeiBoUITests.m */; };
+		6E1C1A2B1C81FB1D00B41224 /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C1A2A1C81FB1D00B41224 /* mm.jpg */; };
+		6E1C1A2D1C81FC7500B41224 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C1A2C1C81FC7400B41224 /* Hypno.png */; };
+		6E1C1A2F1C81FC9E00B41224 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C1A2E1C81FC9E00B41224 /* Hypno@2x.png */; };
+		6E39D5681C9081EB00F618F9 /* HYPSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39D5671C9081EB00F618F9 /* HYPSearchBar.m */; };
+		6E39D56E1C90897200F618F9 /* HYPTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39D56D1C90897200F618F9 /* HYPTitleView.m */; };
+		6E39D5741C915D5500F618F9 /* HYPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39D5731C915D5500F618F9 /* HYPTabBar.m */; };
+		6E39D5771C916AA900F618F9 /* HYPPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E39D5761C916AA900F618F9 /* HYPPopMenu.m */; };
+		6E48C9881C965E57002669DE /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C9871C965E57002669DE /* LogInViewController.m */; };
+		6E48C98E1C9672D9002669DE /* HYPAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C98D1C9672D9002669DE /* HYPAccountTool.m */; };
+		6E48C9911C9683B0002669DE /* HYPControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C9901C9683B0002669DE /* HYPControllerTool.m */; };
+		6E48C9941C968EA0002669DE /* HYPAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C9931C968EA0002669DE /* HYPAccount.m */; };
+		6E48C9971C969BBF002669DE /* HYPStatu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C9961C969BBF002669DE /* HYPStatu.m */; };
+		6E48C99C1C96A11D002669DE /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C99B1C96A11D002669DE /* Foundation+Log.m */; };
+		6E48C99F1C96A2A9002669DE /* HYPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C99E1C96A2A9002669DE /* HYPUser.m */; };
+		6E65E1E01C91C42C0078DEF5 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E65E1DF1C91C42C0078DEF5 /* ComposeViewController.m */; };
+		6E96CFF81C929B4A00ED2794 /* HYPNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E96CFF71C929B4A00ED2794 /* HYPNewFeatureViewController.m */; };
+		6EBB30E81C8BC69A0036388B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB30E71C8BC69A0036388B /* Images.xcassets */; };
+		6EBB31031C8BCADC0036388B /* HYPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB31021C8BCADC0036388B /* HYPTabBarViewController.m */; };
+		6EBB31061C8BCB360036388B /* HYPMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB31051C8BCB360036388B /* HYPMessageViewController.m */; };
+		6EBB31091C8BCB4F0036388B /* HYPDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB31081C8BCB4F0036388B /* HYPDiscoverViewController.m */; };
+		6EBB310C1C8BCB6C0036388B /* HYPProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB310B1C8BCB6C0036388B /* HYPProfileViewController.m */; };
+		6EBB310F1C8BCB9D0036388B /* HYPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB310E1C8BCB9D0036388B /* HYPHomeViewController.m */; };
+		6EBB31561C8BE0130036388B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB31551C8BE0130036388B /* UIView+Extension.m */; };
+		6EBB315A1C8BE3E50036388B /* UIBarButtonItem+HYP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBB31591C8BE3E50036388B /* UIBarButtonItem+HYP.m */; };
+		6EFC01C21C9943A40068569B /* HYPFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC01C11C9943A40068569B /* HYPFooterView.m */; };
+		84D7E971B84474CBDAE4952E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A501A6712D902F7100C35B /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E1C1A051C81EE9B00B41224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1C19E31C81EE9A00B41224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E1C19EA1C81EE9A00B41224;
+			remoteInfo = HYPWeiBo;
+		};
+		6E1C1A101C81EE9B00B41224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E1C19E31C81EE9A00B41224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E1C19EA1C81EE9A00B41224;
+			remoteInfo = HYPWeiBo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3F1B19571A93A583184F9E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0F7E875089AA5AA36E8920B5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5C888D11C533D9DD49F182A4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0484F51C888CE200DDDF54 /* HYPNavigitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYPNavigitionViewController.h; path = ../HYPNavigitionViewController.h; sourceTree = "<group>"; };
+		6E0484F61C888CE200DDDF54 /* HYPNavigitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYPNavigitionViewController.m; path = ../HYPNavigitionViewController.m; sourceTree = "<group>"; };
+		6E0FEDC81C9A8F9E009FFDD5 /* HYPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPTextView.h; sourceTree = "<group>"; };
+		6E0FEDC91C9A8F9E009FFDD5 /* HYPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPTextView.m; sourceTree = "<group>"; };
+		6E1C19EB1C81EE9A00B41224 /* HYPWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYPWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C19EF1C81EE9A00B41224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E1C19F11C81EE9A00B41224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E1C19F21C81EE9A00B41224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E1C19F81C81EE9A00B41224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1C19FA1C81EE9A00B41224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E1C19FD1C81EE9A00B41224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E1C19FF1C81EE9A00B41224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1C1A041C81EE9B00B41224 /* HYPWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C1A081C81EE9B00B41224 /* HYPWeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPWeiBoTests.m; sourceTree = "<group>"; };
+		6E1C1A0A1C81EE9B00B41224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1C1A0F1C81EE9B00B41224 /* HYPWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1C1A131C81EE9B00B41224 /* HYPWeiBoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPWeiBoUITests.m; sourceTree = "<group>"; };
+		6E1C1A151C81EE9B00B41224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1C1A2A1C81FB1D00B41224 /* mm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm.jpg; sourceTree = "<group>"; };
+		6E1C1A2C1C81FC7400B41224 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		6E1C1A2E1C81FC9E00B41224 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		6E39D5661C9081EB00F618F9 /* HYPSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPSearchBar.h; sourceTree = "<group>"; };
+		6E39D5671C9081EB00F618F9 /* HYPSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPSearchBar.m; sourceTree = "<group>"; };
+		6E39D56C1C90897200F618F9 /* HYPTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPTitleView.h; sourceTree = "<group>"; };
+		6E39D56D1C90897200F618F9 /* HYPTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPTitleView.m; sourceTree = "<group>"; };
+		6E39D5721C915D5500F618F9 /* HYPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPTabBar.h; sourceTree = "<group>"; };
+		6E39D5731C915D5500F618F9 /* HYPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPTabBar.m; sourceTree = "<group>"; };
+		6E39D5751C916AA900F618F9 /* HYPPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPPopMenu.h; sourceTree = "<group>"; };
+		6E39D5761C916AA900F618F9 /* HYPPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPPopMenu.m; sourceTree = "<group>"; };
+		6E48C9861C965E57002669DE /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		6E48C9871C965E57002669DE /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		6E48C98C1C9672D9002669DE /* HYPAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPAccountTool.h; sourceTree = "<group>"; };
+		6E48C98D1C9672D9002669DE /* HYPAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPAccountTool.m; sourceTree = "<group>"; };
+		6E48C98F1C9683B0002669DE /* HYPControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPControllerTool.h; sourceTree = "<group>"; };
+		6E48C9901C9683B0002669DE /* HYPControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPControllerTool.m; sourceTree = "<group>"; };
+		6E48C9921C968EA0002669DE /* HYPAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPAccount.h; sourceTree = "<group>"; };
+		6E48C9931C968EA0002669DE /* HYPAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPAccount.m; sourceTree = "<group>"; };
+		6E48C9951C969BBF002669DE /* HYPStatu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPStatu.h; sourceTree = "<group>"; };
+		6E48C9961C969BBF002669DE /* HYPStatu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPStatu.m; sourceTree = "<group>"; };
+		6E48C99B1C96A11D002669DE /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Foundation+Log.m"; path = "../Foundation+Log.m"; sourceTree = "<group>"; };
+		6E48C99D1C96A2A9002669DE /* HYPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPUser.h; sourceTree = "<group>"; };
+		6E48C99E1C96A2A9002669DE /* HYPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPUser.m; sourceTree = "<group>"; };
+		6E65E1DE1C91C42C0078DEF5 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		6E65E1DF1C91C42C0078DEF5 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		6E96CFF61C929B4A00ED2794 /* HYPNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPNewFeatureViewController.h; sourceTree = "<group>"; };
+		6E96CFF71C929B4A00ED2794 /* HYPNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPNewFeatureViewController.m; sourceTree = "<group>"; };
+		6EBB30E71C8BC69A0036388B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EBB31011C8BCADC0036388B /* HYPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPTabBarViewController.h; sourceTree = "<group>"; };
+		6EBB31021C8BCADC0036388B /* HYPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPTabBarViewController.m; sourceTree = "<group>"; };
+		6EBB31041C8BCB360036388B /* HYPMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPMessageViewController.h; sourceTree = "<group>"; };
+		6EBB31051C8BCB360036388B /* HYPMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPMessageViewController.m; sourceTree = "<group>"; };
+		6EBB31071C8BCB4F0036388B /* HYPDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPDiscoverViewController.h; sourceTree = "<group>"; };
+		6EBB31081C8BCB4F0036388B /* HYPDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPDiscoverViewController.m; sourceTree = "<group>"; };
+		6EBB310A1C8BCB6C0036388B /* HYPProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPProfileViewController.h; sourceTree = "<group>"; };
+		6EBB310B1C8BCB6C0036388B /* HYPProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPProfileViewController.m; sourceTree = "<group>"; };
+		6EBB310D1C8BCB9D0036388B /* HYPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPHomeViewController.h; sourceTree = "<group>"; };
+		6EBB310E1C8BCB9D0036388B /* HYPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPHomeViewController.m; sourceTree = "<group>"; };
+		6EBB31541C8BE0130036388B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6EBB31551C8BE0130036388B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6EBB31571C8BE0DA0036388B /* HYPWeiBo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HYPWeiBo-Prefix.pch"; sourceTree = "<group>"; };
+		6EBB31581C8BE3E50036388B /* UIBarButtonItem+HYP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HYP.h"; sourceTree = "<group>"; };
+		6EBB31591C8BE3E50036388B /* UIBarButtonItem+HYP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HYP.m"; sourceTree = "<group>"; };
+		6EFC01C01C9943A40068569B /* HYPFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPFooterView.h; sourceTree = "<group>"; };
+		6EFC01C11C9943A40068569B /* HYPFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPFooterView.m; sourceTree = "<group>"; };
+		79A501A6712D902F7100C35B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96858EF903A009A84ECA4630 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E1C19E81C81EE9A00B41224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D7E971B84474CBDAE4952E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A011C81EE9B00B41224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A0C1C81EE9B00B41224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2F3EF2338F6FDC78B73598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C888D11C533D9DD49F182A4 /* Pods.debug.xcconfig */,
+				96858EF903A009A84ECA4630 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E1C19E21C81EE9A00B41224 = {
+			isa = PBXGroup;
+			children = (
+				6E96CFF21C929B1200ED2794 /* NewFeature */,
+				6E65E1D71C91C3770078DEF5 /* Compose */,
+				6EBB30E21C8BC4A10036388B /* Oauth */,
+				6EBB30F41C8BC9F90036388B /* Profile */,
+				6EBB30F01C8BC9D80036388B /* Discover */,
+				6EBB30EC1C8BC99F0036388B /* Message */,
+				6EBB30DE1C8BC4420036388B /* Home */,
+				6E1C19ED1C81EE9A00B41224 /* HYPWeiBo */,
+				6EBB30E61C8BC5A40036388B /* Other */,
+				ABA47E0110C36AE1E99EC9D4 /* Pods */,
+				B66F3B4F4344EA7B1B71766D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E1C19EC1C81EE9A00B41224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C19EB1C81EE9A00B41224 /* HYPWeiBo.app */,
+				6E1C1A041C81EE9B00B41224 /* HYPWeiBoTests.xctest */,
+				6E1C1A0F1C81EE9B00B41224 /* HYPWeiBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E1C19ED1C81EE9A00B41224 /* HYPWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				6E48C99B1C96A11D002669DE /* Foundation+Log.m */,
+				6EBB30E71C8BC69A0036388B /* Images.xcassets */,
+				6E39D5721C915D5500F618F9 /* HYPTabBar.h */,
+				6E39D5731C915D5500F618F9 /* HYPTabBar.m */,
+				6EBB31581C8BE3E50036388B /* UIBarButtonItem+HYP.h */,
+				6EBB31591C8BE3E50036388B /* UIBarButtonItem+HYP.m */,
+				6EBB31541C8BE0130036388B /* UIView+Extension.h */,
+				6EBB31551C8BE0130036388B /* UIView+Extension.m */,
+				6E0484F51C888CE200DDDF54 /* HYPNavigitionViewController.h */,
+				6E0484F61C888CE200DDDF54 /* HYPNavigitionViewController.m */,
+				6EBB31011C8BCADC0036388B /* HYPTabBarViewController.h */,
+				6EBB31021C8BCADC0036388B /* HYPTabBarViewController.m */,
+				6EBB31571C8BE0DA0036388B /* HYPWeiBo-Prefix.pch */,
+				6E1C19F11C81EE9A00B41224 /* AppDelegate.h */,
+				6E1C19F21C81EE9A00B41224 /* AppDelegate.m */,
+				6E48C98F1C9683B0002669DE /* HYPControllerTool.h */,
+				6E48C9901C9683B0002669DE /* HYPControllerTool.m */,
+				6E1C19EE1C81EE9A00B41224 /* Supporting Files */,
+			);
+			path = HYPWeiBo;
+			sourceTree = "<group>";
+		};
+		6E1C19EE1C81EE9A00B41224 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C1A2A1C81FB1D00B41224 /* mm.jpg */,
+				6E1C1A2C1C81FC7400B41224 /* Hypno.png */,
+				6E1C1A2E1C81FC9E00B41224 /* Hypno@2x.png */,
+				6E1C19F71C81EE9A00B41224 /* Main.storyboard */,
+				6E1C19FA1C81EE9A00B41224 /* Assets.xcassets */,
+				6E1C19FC1C81EE9A00B41224 /* LaunchScreen.storyboard */,
+				6E1C19FF1C81EE9A00B41224 /* Info.plist */,
+				6E1C19EF1C81EE9A00B41224 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E1C1A071C81EE9B00B41224 /* HYPWeiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C1A081C81EE9B00B41224 /* HYPWeiBoTests.m */,
+				6E1C1A0A1C81EE9B00B41224 /* Info.plist */,
+			);
+			path = HYPWeiBoTests;
+			sourceTree = "<group>";
+		};
+		6E1C1A121C81EE9B00B41224 /* HYPWeiBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C1A131C81EE9B00B41224 /* HYPWeiBoUITests.m */,
+				6E1C1A151C81EE9B00B41224 /* Info.plist */,
+			);
+			path = HYPWeiBoUITests;
+			sourceTree = "<group>";
+		};
+		6E65E1D71C91C3770078DEF5 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				6E65E1DA1C91C3F80078DEF5 /* Controller */,
+				6E65E1D91C91C3EF0078DEF5 /* View */,
+				6E65E1D81C91C3E30078DEF5 /* Model */,
+			);
+			name = Compose;
+			sourceTree = "<group>";
+		};
+		6E65E1D81C91C3E30078DEF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6E65E1D91C91C3EF0078DEF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E0FEDC81C9A8F9E009FFDD5 /* HYPTextView.h */,
+				6E0FEDC91C9A8F9E009FFDD5 /* HYPTextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6E65E1DA1C91C3F80078DEF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E65E1DE1C91C42C0078DEF5 /* ComposeViewController.h */,
+				6E65E1DF1C91C42C0078DEF5 /* ComposeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6E96CFF21C929B1200ED2794 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				6E96CFF51C929B2500ED2794 /* Model */,
+				6E96CFF41C929B2200ED2794 /* View */,
+				6E96CFF31C929B2000ED2794 /* Controller */,
+			);
+			name = NewFeature;
+			sourceTree = "<group>";
+		};
+		6E96CFF31C929B2000ED2794 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E96CFF61C929B4A00ED2794 /* HYPNewFeatureViewController.h */,
+				6E96CFF71C929B4A00ED2794 /* HYPNewFeatureViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6E96CFF41C929B2200ED2794 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6E96CFF51C929B2500ED2794 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30DE1C8BC4420036388B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB30E11C8BC4760036388B /* Controller */,
+				6EBB30E01C8BC46B0036388B /* Model */,
+				6EBB30DF1C8BC4620036388B /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		6EBB30DF1C8BC4620036388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E39D56C1C90897200F618F9 /* HYPTitleView.h */,
+				6E39D56D1C90897200F618F9 /* HYPTitleView.m */,
+				6E39D5751C916AA900F618F9 /* HYPPopMenu.h */,
+				6E39D5761C916AA900F618F9 /* HYPPopMenu.m */,
+				6EFC01C01C9943A40068569B /* HYPFooterView.h */,
+				6EFC01C11C9943A40068569B /* HYPFooterView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6EBB30E01C8BC46B0036388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E48C9951C969BBF002669DE /* HYPStatu.h */,
+				6E48C9961C969BBF002669DE /* HYPStatu.m */,
+				6E48C99D1C96A2A9002669DE /* HYPUser.h */,
+				6E48C99E1C96A2A9002669DE /* HYPUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30E11C8BC4760036388B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB310D1C8BCB9D0036388B /* HYPHomeViewController.h */,
+				6EBB310E1C8BCB9D0036388B /* HYPHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6EBB30E21C8BC4A10036388B /* Oauth */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB30E51C8BC4D70036388B /* Controller */,
+				6EBB30E41C8BC4D00036388B /* View */,
+				6EBB30E31C8BC4C70036388B /* Model */,
+			);
+			name = Oauth;
+			sourceTree = "<group>";
+		};
+		6EBB30E31C8BC4C70036388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E48C98C1C9672D9002669DE /* HYPAccountTool.h */,
+				6E48C98D1C9672D9002669DE /* HYPAccountTool.m */,
+				6E48C9921C968EA0002669DE /* HYPAccount.h */,
+				6E48C9931C968EA0002669DE /* HYPAccount.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30E41C8BC4D00036388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6EBB30E51C8BC4D70036388B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E48C9861C965E57002669DE /* LogInViewController.h */,
+				6E48C9871C965E57002669DE /* LogInViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6EBB30E61C8BC5A40036388B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C1A071C81EE9B00B41224 /* HYPWeiBoTests */,
+				6E1C1A121C81EE9B00B41224 /* HYPWeiBoUITests */,
+				6E1C19EC1C81EE9A00B41224 /* Products */,
+				4C2F3EF2338F6FDC78B73598 /* Pods */,
+				A8D034C6F7177FBF39AF4196 /* Frameworks */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6EBB30EC1C8BC99F0036388B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB30ED1C8BC9B80036388B /* Model */,
+				6EBB30EF1C8BC9C90036388B /* Controller */,
+				6EBB30EE1C8BC9C30036388B /* View */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		6EBB30ED1C8BC9B80036388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30EE1C8BC9C30036388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6EBB30EF1C8BC9C90036388B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB31041C8BCB360036388B /* HYPMessageViewController.h */,
+				6EBB31051C8BCB360036388B /* HYPMessageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6EBB30F01C8BC9D80036388B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB30F31C8BC9F10036388B /* View */,
+				6EBB30F21C8BC9EA0036388B /* Controller */,
+				6EBB30F11C8BC9E20036388B /* Model */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		6EBB30F11C8BC9E20036388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30F21C8BC9EA0036388B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB31071C8BCB4F0036388B /* HYPDiscoverViewController.h */,
+				6EBB31081C8BCB4F0036388B /* HYPDiscoverViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6EBB30F31C8BC9F10036388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E39D5661C9081EB00F618F9 /* HYPSearchBar.h */,
+				6E39D5671C9081EB00F618F9 /* HYPSearchBar.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6EBB30F41C8BC9F90036388B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB30F71C8BCA1D0036388B /* Controller */,
+				6EBB30F61C8BCA0E0036388B /* View */,
+				6EBB30F51C8BCA070036388B /* Model */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		6EBB30F51C8BCA070036388B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6EBB30F61C8BCA0E0036388B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6EBB30F71C8BCA1D0036388B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB310A1C8BCB6C0036388B /* HYPProfileViewController.h */,
+				6EBB310B1C8BCB6C0036388B /* HYPProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A8D034C6F7177FBF39AF4196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79A501A6712D902F7100C35B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA47E0110C36AE1E99EC9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3F1B19571A93A583184F9E /* Pods.debug.xcconfig */,
+				0F7E875089AA5AA36E8920B5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B66F3B4F4344EA7B1B71766D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E1C19EA1C81EE9A00B41224 /* HYPWeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1C1A181C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBo" */;
+			buildPhases = (
+				0B59AFE734414A07E120CD71 /* Check Pods Manifest.lock */,
+				6E1C19E71C81EE9A00B41224 /* Sources */,
+				6E1C19E81C81EE9A00B41224 /* Frameworks */,
+				6E1C19E91C81EE9A00B41224 /* Resources */,
+				EC7C8496531E79D922E688E8 /* Embed Pods Frameworks */,
+				9937796C0860FA684A10FE06 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYPWeiBo;
+			productName = HYPWeiBo;
+			productReference = 6E1C19EB1C81EE9A00B41224 /* HYPWeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E1C1A031C81EE9B00B41224 /* HYPWeiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1C1A1B1C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBoTests" */;
+			buildPhases = (
+				6E1C1A001C81EE9B00B41224 /* Sources */,
+				6E1C1A011C81EE9B00B41224 /* Frameworks */,
+				6E1C1A021C81EE9B00B41224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E1C1A061C81EE9B00B41224 /* PBXTargetDependency */,
+			);
+			name = HYPWeiBoTests;
+			productName = HYPWeiBoTests;
+			productReference = 6E1C1A041C81EE9B00B41224 /* HYPWeiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E1C1A0E1C81EE9B00B41224 /* HYPWeiBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E1C1A1E1C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBoUITests" */;
+			buildPhases = (
+				6E1C1A0B1C81EE9B00B41224 /* Sources */,
+				6E1C1A0C1C81EE9B00B41224 /* Frameworks */,
+				6E1C1A0D1C81EE9B00B41224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E1C1A111C81EE9B00B41224 /* PBXTargetDependency */,
+			);
+			name = HYPWeiBoUITests;
+			productName = HYPWeiBoUITests;
+			productReference = 6E1C1A0F1C81EE9B00B41224 /* HYPWeiBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E1C19E31C81EE9A00B41224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bupt;
+				TargetAttributes = {
+					6E1C19EA1C81EE9A00B41224 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8H2FDT6QCT;
+					};
+					6E1C1A031C81EE9B00B41224 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8H2FDT6QCT;
+						TestTargetID = 6E1C19EA1C81EE9A00B41224;
+					};
+					6E1C1A0E1C81EE9B00B41224 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8H2FDT6QCT;
+						TestTargetID = 6E1C19EA1C81EE9A00B41224;
+					};
+				};
+			};
+			buildConfigurationList = 6E1C19E61C81EE9A00B41224 /* Build configuration list for PBXProject "HYPWeiBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E1C19E21C81EE9A00B41224;
+			productRefGroup = 6E1C19EC1C81EE9A00B41224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E1C19EA1C81EE9A00B41224 /* HYPWeiBo */,
+				6E1C1A031C81EE9B00B41224 /* HYPWeiBoTests */,
+				6E1C1A0E1C81EE9B00B41224 /* HYPWeiBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1C19E91C81EE9A00B41224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C19FE1C81EE9A00B41224 /* LaunchScreen.storyboard in Resources */,
+				6E1C19FB1C81EE9A00B41224 /* Assets.xcassets in Resources */,
+				6EBB30E81C8BC69A0036388B /* Images.xcassets in Resources */,
+				6E1C19F91C81EE9A00B41224 /* Main.storyboard in Resources */,
+				6E1C1A2F1C81FC9E00B41224 /* Hypno@2x.png in Resources */,
+				6E1C1A2B1C81FB1D00B41224 /* mm.jpg in Resources */,
+				6E1C1A2D1C81FC7500B41224 /* Hypno.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A021C81EE9B00B41224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A0D1C81EE9B00B41224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B59AFE734414A07E120CD71 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9937796C0860FA684A10FE06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7C8496531E79D922E688E8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E1C19E71C81EE9A00B41224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0484F71C888CE200DDDF54 /* HYPNavigitionViewController.m in Sources */,
+				6E48C98E1C9672D9002669DE /* HYPAccountTool.m in Sources */,
+				6E48C99F1C96A2A9002669DE /* HYPUser.m in Sources */,
+				6EBB31031C8BCADC0036388B /* HYPTabBarViewController.m in Sources */,
+				6E48C9911C9683B0002669DE /* HYPControllerTool.m in Sources */,
+				6E1C19F31C81EE9A00B41224 /* AppDelegate.m in Sources */,
+				6E48C9941C968EA0002669DE /* HYPAccount.m in Sources */,
+				6EBB31091C8BCB4F0036388B /* HYPDiscoverViewController.m in Sources */,
+				6E39D56E1C90897200F618F9 /* HYPTitleView.m in Sources */,
+				6EBB310C1C8BCB6C0036388B /* HYPProfileViewController.m in Sources */,
+				6EBB315A1C8BE3E50036388B /* UIBarButtonItem+HYP.m in Sources */,
+				6E39D5771C916AA900F618F9 /* HYPPopMenu.m in Sources */,
+				6E48C9881C965E57002669DE /* LogInViewController.m in Sources */,
+				6EFC01C21C9943A40068569B /* HYPFooterView.m in Sources */,
+				6EBB31061C8BCB360036388B /* HYPMessageViewController.m in Sources */,
+				6E96CFF81C929B4A00ED2794 /* HYPNewFeatureViewController.m in Sources */,
+				6E48C9971C969BBF002669DE /* HYPStatu.m in Sources */,
+				6EBB310F1C8BCB9D0036388B /* HYPHomeViewController.m in Sources */,
+				6E39D5681C9081EB00F618F9 /* HYPSearchBar.m in Sources */,
+				6EBB31561C8BE0130036388B /* UIView+Extension.m in Sources */,
+				6E0FEDCA1C9A8F9E009FFDD5 /* HYPTextView.m in Sources */,
+				6E65E1E01C91C42C0078DEF5 /* ComposeViewController.m in Sources */,
+				6E1C19F01C81EE9A00B41224 /* main.m in Sources */,
+				6E48C99C1C96A11D002669DE /* Foundation+Log.m in Sources */,
+				6E39D5741C915D5500F618F9 /* HYPTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A001C81EE9B00B41224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C1A091C81EE9B00B41224 /* HYPWeiBoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C1A0B1C81EE9B00B41224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1C1A141C81EE9B00B41224 /* HYPWeiBoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E1C1A061C81EE9B00B41224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E1C19EA1C81EE9A00B41224 /* HYPWeiBo */;
+			targetProxy = 6E1C1A051C81EE9B00B41224 /* PBXContainerItemProxy */;
+		};
+		6E1C1A111C81EE9B00B41224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E1C19EA1C81EE9A00B41224 /* HYPWeiBo */;
+			targetProxy = 6E1C1A101C81EE9B00B41224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E1C19F71C81EE9A00B41224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1C19F81C81EE9A00B41224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E1C19FC1C81EE9A00B41224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E1C19FD1C81EE9A00B41224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E1C1A161C81EE9B00B41224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E1C1A171C81EE9B00B41224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E1C1A191C81EE9B00B41224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3F1B19571A93A583184F9E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYPWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E1C1A1A1C81EE9B00B41224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7E875089AA5AA36E8920B5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYPWeiBo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E1C1A1C1C81EE9B00B41224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYPWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPWeiBo.app/HYPWeiBo";
+			};
+			name = Debug;
+		};
+		6E1C1A1D1C81EE9B00B41224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYPWeiBoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPWeiBo.app/HYPWeiBo";
+			};
+			name = Release;
+		};
+		6E1C1A1F1C81EE9B00B41224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYPWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYPWeiBo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6E1C1A201C81EE9B00B41224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYPWeiBoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sse.bupt.---.HYPWeiBoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYPWeiBo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E1C19E61C81EE9A00B41224 /* Build configuration list for PBXProject "HYPWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C1A161C81EE9B00B41224 /* Debug */,
+				6E1C1A171C81EE9B00B41224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1C1A181C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C1A191C81EE9B00B41224 /* Debug */,
+				6E1C1A1A1C81EE9B00B41224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1C1A1B1C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C1A1C1C81EE9B00B41224 /* Debug */,
+				6E1C1A1D1C81EE9B00B41224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E1C1A1E1C81EE9B00B41224 /* Build configuration list for PBXNativeTarget "HYPWeiBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1C1A1F1C81EE9B00B41224 /* Debug */,
+				6E1C1A201C81EE9B00B41224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E1C19E31C81EE9A00B41224 /* Project object */;
+}

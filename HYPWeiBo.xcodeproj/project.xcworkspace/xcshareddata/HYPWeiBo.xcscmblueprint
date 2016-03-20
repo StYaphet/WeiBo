@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "97408772A9A37F996B05FB3EB367FB669D856CA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97408772A9A37F996B05FB3EB367FB669D856CA2" : 0,
+    "C39D2C5A07BB4DCF0A2F175AD9B10EB093BFF660" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9A54B0A0-9C2B-4E13-8641-C398F81597F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97408772A9A37F996B05FB3EB367FB669D856CA2" : "HYPWeiBo\/",
+    "C39D2C5A07BB4DCF0A2F175AD9B10EB093BFF660" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HYPWeiBo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HYPWeiBo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/StYaphet\/HYPWeiBo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97408772A9A37F996B05FB3EB367FB669D856CA2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:StYaphet\/HYP-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C39D2C5A07BB4DCF0A2F175AD9B10EB093BFF660"
+    }
+  ]
+}
